@@ -1,0 +1,34 @@
+module.exports = [
+	{
+		"name":"Henry",
+		"phone":"333-444-555",
+		"email":"Henry@gmail.com",
+		"id":1,
+		"age":30,
+		"companyId":1
+	},
+	{
+		"name":"kobe",
+		"phone":"333-444-556",
+		"email":"kobe@gmail.com",
+		"id":2,
+		"age":34,
+		"companyId":2
+	},
+	{
+		"name":"james",
+		"phone":"333-444-557",
+		"email":"james@gmail.com",
+		"id":3,
+		"age":28,
+		"companyId":3
+	},
+	{
+		"name":"wade",
+		"phone":"333-444-558",
+		"email":"wade@gmail.com",
+		"id":4,
+		"age":50,
+		"companyId":3
+	}
+]
