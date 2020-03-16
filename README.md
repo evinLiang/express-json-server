@@ -2,7 +2,9 @@
 express+json-server搭建简单json服务器，实现增删改查
 
 ##### 安装experss
-`cnpm install express --save`
+```
+cnpm install express --save
+```
 
 ##### 安装experss
 `cnpm install express-json-server --save`
