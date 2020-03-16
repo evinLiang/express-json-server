@@ -7,19 +7,23 @@ cnpm install express --save
 ```
 
 ##### 安装experss
-`cnpm install express-json-server --save`
+```
+cnpm install express-json-server --save
+```
 
 ##### 新建app.js并且配置
-`const path = require('path');	
+```
+const path = require('path');	
 const express = require('express');
 const autoController = require('express-json-server');
 const app = express();
 autoController(app, path.join(__dirname, 'db'));	//json-server 配置
 app.listen(3000);
-`
+```
 
 ##### db/index.js 的配置 //json-server 配置文件
-`// db/index.js
+```
+// db/index.js
 module.exports = {
   delay: 500,                 // 响应延迟(ms), 可选, 默认0
   // foreignKeySuffix: 'Id',  // 外键后缀, 可选, 默认'Id', 'userId'则外键关联user表的id,
@@ -40,10 +44,12 @@ module.exports = {
   tables: {
     user: require('./user'),		//例子user的数据
   }, 
-};`
+};
+```
 
 ##### user.js 例子
-`module.exports = [
+```
+module.exports = [
 	{
 		"name":"Henry",
 		"phone":"333-444-555",
@@ -76,10 +82,11 @@ module.exports = {
 		"age":50,
 		"companyId":3
 	}
-]`
+]
+```
 
 ##### 启动
-`node app.js`
+```node app.js```
 
 ##### 浏览器打开预览
-`localhost:3000/api/user`
+```localhost:3000/api/user```
