@@ -86,7 +86,11 @@ module.exports = [
 ```
 
 ##### 启动
-```node app.js```
+```
+node app.js
+```
 
 ##### 浏览器打开预览
-```localhost:3000/api/user```
+```
+localhost:3000/api/user
+```
